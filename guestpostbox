@@ -1,0 +1,9 @@
+<?php
+require('fngssn.class.php');
+// Instantiate the class
+$fngssn = new fngssn();
+// Generate a SSN for California
+echo $fngssn->generateSSN('CA');
+echo '<br /><br />';
+
+?>
